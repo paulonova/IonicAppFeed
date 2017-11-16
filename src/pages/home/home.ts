@@ -22,7 +22,9 @@ const data = [{
 
 export class HomePage {
 
+  posts: any
   constructor(public navCtrl: NavController) {
+    this.posts = data;
 
   }
 
